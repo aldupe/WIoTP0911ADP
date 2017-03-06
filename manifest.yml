@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: WIoTP0911ADP
+  host: WIoTP0911ADP
+  disk_quota: 1024M
+  services:
+  - WIoTP0911ADP-cloudantNoSQLDB
+  - WIoTP0911ADP-iotf-service
